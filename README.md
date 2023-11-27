@@ -27,7 +27,7 @@ The API will be hosted, and you should see output indicating the URL where it's 
 
 ### 5. Test the API:
 
-Navigate to `http://localhost:7089/api/todo` to test the API. (the PORT could be vary e.g.: 5000)
+Navigate to `http://localhost:7089/api/todo` to test the API. (the PORT could be vary e.g.:- 5000)
 
 ________________________________________________________________________________________________________________________________
 
@@ -129,7 +129,7 @@ Invalid "todoId" returns 404 Not Found.
 
 Request URL: `https://localhost:7089/api/Todo/{id}`
 
-The response indicating the successful update: 204 No Content.
+The response indicating the successful deletion: 204 No Content.
 
 Invalid "todoId" returns 404 Not Found.
 
